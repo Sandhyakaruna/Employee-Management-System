@@ -1,0 +1,27 @@
+employee-management-system/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── styles.css
+│   │   ├── js/
+│   └── templates/
+│       ├── base.html
+│       ├── index.html
+│       ├── add_employee.html
+│       └── view_employees.html
+│
+├── database/
+│   ├── init_db.py
+│   └── employee.db
+│
+├── tests/
+│   ├── test_routes.py
+│   └── test_models.py
+│
+├── README.md
+├── requirements.txt
+└── run.py
